@@ -38,20 +38,3 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
     CMD curl -f http://localhost:10000/health || curl -f http://localhost:10000/api/health || exit 1
 
 ENTRYPOINT ["/app/start.sh"]
-```
-
-**Lưu ý quan trọng khi deploy lên Render:**
-
-1. **Tạo file `.dockerignore`** để giảm kích thước build:
-```
-bin/
-obj/
-.vs/
-.vscode/
-*.user
-*.suo
-.git/
-.gitignore
-README.md
-.env
-appsettings.Development.json
