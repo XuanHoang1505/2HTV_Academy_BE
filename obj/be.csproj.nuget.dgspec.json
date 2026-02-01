@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\UTE\\HK125\\125HKDN\\2HTV_Academy\\be\\be.csproj": {}
+    "E:\\UTE\\HK125\\deploy\\2HTV_Academy\\be\\be.csproj": {}
   },
   "projects": {
-    "E:\\UTE\\HK125\\125HKDN\\2HTV_Academy\\be\\be.csproj": {
+    "E:\\UTE\\HK125\\deploy\\2HTV_Academy\\be\\be.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UTE\\HK125\\125HKDN\\2HTV_Academy\\be\\be.csproj",
+        "projectUniqueName": "E:\\UTE\\HK125\\deploy\\2HTV_Academy\\be\\be.csproj",
         "projectName": "be",
-        "projectPath": "E:\\UTE\\HK125\\125HKDN\\2HTV_Academy\\be\\be.csproj",
+        "projectPath": "E:\\UTE\\HK125\\deploy\\2HTV_Academy\\be\\be.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\UTE\\HK125\\125HKDN\\2HTV_Academy\\be\\obj\\",
+        "outputPath": "E:\\UTE\\HK125\\deploy\\2HTV_Academy\\be\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
