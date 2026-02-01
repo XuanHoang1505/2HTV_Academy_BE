@@ -106,10 +106,6 @@
               "target": "Package",
               "version": "[9.*, )"
             },
-            "Microsoft.Extensions.Caching.Memory": {
-              "target": "Package",
-              "version": "[9.0.11, )"
-            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[9.0.0, )"

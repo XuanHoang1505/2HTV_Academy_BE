@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "bFngbHAWyug=",
-  "success": false,
+  "dgSpecHash": "YmsWCAkCAuQ=",
+  "success": true,
   "projectFilePath": "E:\\UTE\\HK125\\deploy\\2HTV_Academy\\be\\be.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
@@ -41,7 +41,7 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.12\\microsoft.entityframeworkcore.tools.9.0.12.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.apidescription.server\\9.0.0\\microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.12\\microsoft.extensions.caching.abstractions.9.0.12.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.11\\microsoft.extensions.caching.memory.9.0.11.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.12\\microsoft.extensions.caching.memory.9.0.12.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.12\\microsoft.extensions.configuration.abstractions.9.0.12.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.12\\microsoft.extensions.dependencyinjection.9.0.12.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.12\\microsoft.extensions.dependencyinjection.abstractions.9.0.12.nupkg.sha512",
@@ -157,15 +157,5 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\x.pagedlist\\10.5.9\\x.pagedlist.10.5.9.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\x.pagedlist.ef\\10.5.9\\x.pagedlist.ef.10.5.9.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.Extensions.Caching.Memory from 9.0.12 to 9.0.11. Reference the package directly from the project to select a different version. \r\n be -> Microsoft.EntityFrameworkCore 9.0.12 -> Microsoft.Extensions.Caching.Memory (>= 9.0.12) \r\n be -> Microsoft.Extensions.Caching.Memory (>= 9.0.11)",
-      "libraryId": "Microsoft.Extensions.Caching.Memory",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }

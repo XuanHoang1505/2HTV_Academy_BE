@@ -842,14 +842,14 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Caching.Memory/9.0.11": {
+      "Microsoft.Extensions.Caching.Memory/9.0.12": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "9.0.11",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.11",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.11",
-          "Microsoft.Extensions.Options": "9.0.11",
-          "Microsoft.Extensions.Primitives": "9.0.11"
+          "Microsoft.Extensions.Caching.Abstractions": "9.0.12",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.12",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.12",
+          "Microsoft.Extensions.Options": "9.0.12",
+          "Microsoft.Extensions.Primitives": "9.0.12"
         },
         "compile": {
           "lib/net9.0/Microsoft.Extensions.Caching.Memory.dll": {
@@ -4595,10 +4595,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Caching.Memory/9.0.11": {
-      "sha512": "J77oUeVZXdMoiUiCPkL4v13KrNRuMQnSHHw78cTh/2ZidyiMFm8jhu49OUKvNydMUX8ZcuM5g8uohW18YaglMw==",
+    "Microsoft.Extensions.Caching.Memory/9.0.12": {
+      "sha512": "dIegtyqhrD+YYzSQJv7Wo/u938l11rIcNGIbh9MSeQSSFh1/CmcgoTTUmU7D/MXFTGC55vVtURuRSAsFmjoNdw==",
       "type": "package",
-      "path": "microsoft.extensions.caching.memory/9.0.11",
+      "path": "microsoft.extensions.caching.memory/9.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4618,7 +4618,7 @@
         "lib/net9.0/Microsoft.Extensions.Caching.Memory.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
-        "microsoft.extensions.caching.memory.9.0.11.nupkg.sha512",
+        "microsoft.extensions.caching.memory.9.0.12.nupkg.sha512",
         "microsoft.extensions.caching.memory.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -8620,7 +8620,6 @@
       "Microsoft.EntityFrameworkCore.Design >= 9.*",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.*",
       "Microsoft.EntityFrameworkCore.Tools >= 9.*",
-      "Microsoft.Extensions.Caching.Memory >= 9.0.11",
       "Pomelo.EntityFrameworkCore.MySql >= 9.0.0",
       "Swashbuckle.AspNetCore >= 9.0.4",
       "X.PagedList >= 10.5.9",
@@ -8733,10 +8732,6 @@
             "target": "Package",
             "version": "[9.*, )"
           },
-          "Microsoft.Extensions.Caching.Memory": {
-            "target": "Package",
-            "version": "[9.0.11, )"
-          },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
             "version": "[9.0.0, )"
@@ -8776,16 +8771,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.Extensions.Caching.Memory from 9.0.12 to 9.0.11. Reference the package directly from the project to select a different version. \r\n be -> Microsoft.EntityFrameworkCore 9.0.12 -> Microsoft.Extensions.Caching.Memory (>= 9.0.12) \r\n be -> Microsoft.Extensions.Caching.Memory (>= 9.0.11)",
-      "libraryId": "Microsoft.Extensions.Caching.Memory",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }
